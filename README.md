@@ -33,7 +33,7 @@ AIZombies eXtreme Remastered includes a list of dvars that can tweak the experie
 
 - `aiz_spawnType`: dictates the weapons that the player spawns with. Valid options are `0` (spawn all players with the USP) and `1` (spawn with a random weapon)
 - `aiz_maxHealth`: max player health without juggernog
-- `aiz_maxHealth_jugg`: max player health with jugg
+- `aiz_maxHealth_jugg`: max player health with juggernog
 - `aiz_botStartingHealth`: starting health of regular zombies
 - `aiz_crawlerHealth`: starting health of crawler zombies
 - `aiz_bossHealth`: starting health of boss zombies
