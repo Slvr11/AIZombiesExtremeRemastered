@@ -945,10 +945,26 @@ loadMapEdits()
             {
                 spawnMapEditObject("invisiblewall", (4113,3144,432),(4129,3448,500));
                 spawnMapEditObject("invisiblewall", (4129,3448,432),(4008,3468,500));
-                spawnMapEditObject("invisiblewall", (3669,2446,400),(3426,2553,500));
-                spawnMapEditObject("invisiblewall", (3414,2536,400),(3659,2529,500));
-                spawnMapEditObject("invisiblewall", (3426,2553,400),(3414,2536,500));
-                spawnMapEditObject("invisiblewall", (3669,2446,400),(3659,2529,500));
+
+                spawnMapEditObject("invisiblefloor", (3680, 2659, 400), (3440, 2565, 400));
+                spawnMapEditObject("invisiblefloor", (3680, 2659, 450), (3440, 2565, 450));
+                spawnMapEditObject("invisiblefloor", (3680, 2659, 500), (3440, 2565, 500));
+
+                spawnMapEditObject("invisiblefloor", (3650, 2520, 400), (3395, 2425, 400));
+                spawnMapEditObject("invisiblefloor", (3650, 2520, 450), (3395, 2425, 450));
+                spawnMapEditObject("invisiblefloor", (3650, 2520, 500), (3395, 2425, 500));
+
+                spawnMapEditObject("invisiblefloor", (3915, 3125, 400), (3825, 3375, 400));
+                spawnMapEditObject("invisiblefloor", (3915, 3125, 450), (3825, 3375, 450));
+                spawnMapEditObject("invisiblefloor", (3915, 3125, 500), (3825, 3375, 500));
+
+                spawnMapEditObject("invisiblefloor", (3795, 3195, 400), (3715, 3450, 400));
+                spawnMapEditObject("invisiblefloor", (3795, 3195, 450), (3715, 3450, 450));
+                spawnMapEditObject("invisiblefloor", (3795, 3195, 500), (3715, 3450, 500));
+
+                spawnMapEditObject("invisiblefloor", (3520, 3365, 400), (3270, 3450, 400));
+                spawnMapEditObject("invisiblefloor", (3520, 3365, 450), (3270, 3450, 450));
+                spawnMapEditObject("invisiblefloor", (3520, 3365, 50), (3270, 3450, 500));
                 
                 spawnMapEditObject("randombox", (3975,2304,400),(0,90,0));
                 spawnMapEditObject("power", (3655,1726,400),(0,0,0));
