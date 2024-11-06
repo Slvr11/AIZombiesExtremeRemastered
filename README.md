@@ -28,7 +28,15 @@ There are many new features in the remaster that were not present in the origina
 
 ...and many more small tweaks and improvements!
 
-### Dvars/Tweaks
+## How To Install
+To install this mod into your server, move the contents of `user_scripts/mp` into your server's `user_scripts/mp` directory. If your server does not have this folder, create it.
+To start the server in AIZombies mode, add this line to your server cfg:
+
+`set aiz_enabled "1"`
+
+Once added, start your server on Team Deathmatch and AIZombies should run as intended. AIZombies handles map rotation by itself so you may ignore map rotation in your server cfg.
+
+## Dvars/Tweaks
 AIZombies eXtreme Remastered includes a list of dvars that can tweak the experience. These dvars are included to allow server hosters to customize the gameplay to make it easier or harder.
 
 - `aiz_spawnType`: dictates the weapons that the player spawns with. Valid options are `0` (spawn all players with the USP) and `1` (spawn with a random weapon)
@@ -56,10 +64,17 @@ AIZombies eXtreme Remastered includes a list of dvars that can tweak the experie
 - `aiz_zombieModels`: enables or disables using the actual zombie models used in the Infected mode. Valid options are `0` (do not use zombie models), `1` (use only zombie models), and `2` (add zombie models to the list of random models that zombies use)
 - `aiz_showPerkDescriptions`: enables or disables a short text description of a perk when buying it
 
-### How To Install
-To install this mod into your server, move the contents of `user_scripts/mp` into your server's `user_scripts/mp` directory. If your server does not have this folder, create it.
-To start the server in AIZombies mode, add this line to your server cfg:
+## Troubleshooting
+> My server is loading into normal Team Deathmatch instead of AIZombies.
 
-`set aiz_enabled "1"`
+Ensure you placed the mod files in the correct location listed above, and that you have set the `aiz_enabled` dvar correctly.
 
-Once added, start your server on Team Deathmatch and AIZombies should run as intended. AIZombies handles map rotation by itself so you may ignore map rotation in your server cfg.
+
+> My server keeps crashing with a "G_Spawn: no free entities" error.
+
+This is a bug with the H2M/HMW client, not AIZombies. The developers show no care in fixing this issue directly so there is no way to avoid this error. Just restart the server when this error occurs. It more likely occurs on higher player counts, so lowering the overall max player count may keep it from happening as often.
+
+
+> The game lags a lot when there are many players in the server.
+
+This is due to the complexity of the mod. You can improve performance with higher playercounts by using the `aiz_maxZombiesUnderLoad` dvar. Lowering this dvar will improve performance when 4 or more players are in the server.
