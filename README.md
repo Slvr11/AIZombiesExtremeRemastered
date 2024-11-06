@@ -29,7 +29,7 @@ There are many new features in the remaster that were not present in the origina
 ...and many more small tweaks and improvements!
 
 ## How To Install
-To install this mod into your server, move the contents of `user_scripts/mp` into your server's `user_scripts/mp` directory. If your server does not have this folder, create it.
+To install this mod into your server, download the repo as a zip file and move the contents of `user_scripts/mp` into your server's `user_scripts/mp` directory. If your server does not have this folder, create it.
 To start the server in AIZombies mode, add this line to your server cfg:
 
 `set aiz_enabled "1"`
